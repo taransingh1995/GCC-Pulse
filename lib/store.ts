@@ -1,4 +1,5 @@
 import { BriefItem, DealItem, PublicSource, RatingItem, Store } from "./types";
+export type { Store } from "./types";
 import { nowIso } from "./time";
 import { parseBriefFromPaste, parseDealFromPaste, parseRatingFromPaste } from "./parse";
 
